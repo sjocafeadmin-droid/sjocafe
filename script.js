@@ -26,6 +26,5 @@ if (bord >= 1 && bord <= 70) {
     const tableId = tableIds[bord - 1];
     orderButton.href = `${baseOrderUrl}${tableId}&qr=1`;
 } else {
-    orderButton.href = "#";
-    orderButton.textContent = "Beställ här";
+    orderButton.href = "https://qopla.com/restaurant/sjocafé-lovstabadet/qYx7PoO91D/order?qr=1";
 }
